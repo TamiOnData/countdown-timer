@@ -47,4 +47,4 @@ const months = [
     const timerInterval = setInterval(updateCountdown, 1000);
 
     const endDate = targetDate.toLocaleString('en-US', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', });
-      document.getElementById('giveaway-message').innerHTML = `Giveaway Ends On ${endDate} at 11:30am`;
+      document.getElementById('giveaway-info').innerHTML = `Giveaway Ends On ${endDate} at 11:30am`;

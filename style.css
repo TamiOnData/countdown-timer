@@ -4,6 +4,15 @@
   box-sizing:border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  background-color:#bcccdc;
+}                                                                                      
+
 p{
   color: #48647f;
   font-family:"Open Sans", sans-serif;
@@ -11,14 +20,23 @@ p{
   text-align: start;
   line-height: 24px;
   letter-spacing: normal;
+  padding: 10px;
+}
 
+.text{
+  padding: 10px;
 }
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  border-radius: 25px;
+  box-shadow: none; 
 }
-
-h3{
+ 
+h1{
   color: #0b64a4;
   font-family: Roboto, sans-serif;
   font-size: 28px;
@@ -27,36 +45,22 @@ h3{
   letter-spacing: 5px;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  padding: 10px;
 }
-h4{
+h2{
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: start;
   letter-spacing: 4px;
   line-height: 16px;
+  padding: 10px;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    height: 100vh;
-    margin: 0;
-    line-height: 1.5;
-    font-size: 0.875rem;
-    background-color:#bcccdc;
-  }
 
   section{
     display: flex;
     width: 100%;
     height: 100%;
     padding: 80px auto;
-  }
-
-  img{
-    width: 100%;
-    padding: 16px;
-    border-radius: 7px;
-    box-shadow: none;
   }
 
   .info{
@@ -87,15 +91,15 @@ body {
 
   .days, .hours, .minutes, .seconds{
     align-items: center;
+    color: #fff;
     width: 80px;
     height: 80px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    border: 2px solid #aaa;
+    border: 2px solid #063251;
     border-radius: 5px;
     background-color: #063251;
-    color: #fff;
     margin-bottom: 0.25rem;
     margin-right: 0.5rem;
     font-size: 0.875rem;
